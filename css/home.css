@@ -1,0 +1,75 @@
+.layer {
+    transition: all 0.7s;
+    transform: translateY(525px);
+  }
+.card:hover .layer {
+    transform: translateY(0px);
+  }
+  .n{
+    display:flex;
+    flex-direction: column;
+    z-index: 999;
+    width:17%;
+    left:-210px;
+    
+}
+.targ{
+    display: flex;
+    flex-direction: column;
+
+}
+.links{
+    transform: translateY(209px);
+}
+.n2{
+    display:flex;
+    flex-direction: column;
+    z-index: 999;
+    width:60px;
+    left:0px;
+
+}
+.n2 img{
+    width: 30px;
+}
+input::placeholder{
+    color: rgb(104, 105, 105)!important;
+}
+.open{
+    position: absolute;
+    top: 40%;
+    z-index: 99;
+    left:0;
+    cursor: pointer;
+    
+}
+.close{
+    position: absolute;
+    top: 40%;
+    z-index: 99;
+    left:0;
+    cursor: pointer;
+    display: none;
+}
+.icon{
+    bottom:15%;
+    cursor: pointer;
+
+}
+.card{
+    cursor: pointer;
+}
+.btn{
+    transition: all 0.5s
+}
+.btn:hover{
+    background-color: brown!important;
+    color: white!important;
+}
+.area,.ingr{
+    font-size:80px;
+}
+.areaCard,.ingrCard{
+    cursor: pointer;
+
+}
